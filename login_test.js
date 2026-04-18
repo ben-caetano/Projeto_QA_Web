@@ -8,7 +8,7 @@ Scenario('login com sucesso',  ({ I }) => {
     I.fillField('#user','abc@yahoo.com')
     I.fillField('#password','123456')
     I.click('#btnLogin')
-    I.waitForText('Login realizada',5)
+    I.waitForText('Login realizado',5)
 }).tag('@sucesso')
 
 Scenario('login apenas com e-mail',  ({ I }) => {
